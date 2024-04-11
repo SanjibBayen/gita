@@ -1,0 +1,141 @@
+body {
+  font-family: Arial, sans-serif;
+  /* background-color: #f6eee7;  */
+  background-color: #f4dbc6;
+  color: #563f2e;
+}
+.sup {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 20px;
+  margin-top: 40px;
+  padding: 20px 20px;
+}
+.next {
+  display: flex;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  position: fixed;
+  right: 0.75rem;
+  top: 50%;
+  border-radius: 50%;
+  background-image: url("nav.jpg");
+  opacity: 0.7;
+  color: rgba(255, 255, 255, 0.689);
+  align-items: center;
+}
+.prev {
+  position: fixed;
+  left: 0.75rem;
+  top: 50%;
+  display: flex;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background-image: url("nav.jpg");
+  opacity: 0.7;
+  color: rgba(255, 255, 255, 0.689);
+  align-items: center;
+}
+.big {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+}
+.containt {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid brown; */
+  border-radius: 10px;
+  background: url("book2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 40px 20px;
+  gap: 40px;
+}
+.picr {
+  width: 500px;
+  height: 300px;
+}
+.text-slok {
+  height: auto;
+  width: 90%;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 40px;
+  align-items: center;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .sup {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+
+  .containt {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .picr {
+    width: 100%;
+    height: auto;
+  }
+
+  .text-slok {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .containt {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .sup {
+    width: 100%;
+    margin: 0px 0px;
+    margin-top: 0px;
+    padding: 5px 5px;
+  }
+
+  /* .next,
+  .prev {
+    height: 2rem;
+    width: 2rem;
+    font-size: 0.8rem;
+  } */
+  .slokab {
+    font-size: 27px;
+  }
+  .sloka {
+    font-size: 20px;
+  }
+  .picr {
+    width: 100%;
+    height: auto;
+  }
+
+  .text-slok {
+    width: 100%;
+    gap: 20px;
+    padding: 5px;
+  }
+}
