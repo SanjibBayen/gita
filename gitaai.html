@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="style3.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
       rel="stylesheet"
@@ -61,28 +61,28 @@
         <!-- d -->
       </div>
     </div>
-    <div class="sup">
-      <div class="prev">
-        <button class="big" onclick="fetchslok2()"><</button>
-      </div>
-      <div class="containt">
-        <h1 class="sloka" id="sl1">1</h1>
-        <img src="book1.jpg" alt="" class="picr" />
-        <div class="text-slok">
-          <h2 class="slokab" id="sl2">hftnst</h2>
-          <p class="sloka" id="sl3">hftnst</p>
-          <p class="sloka" id="sl4">hftnst</p>
-          <p class="sloka" id="sl5">hftnst</p>
-          <!-- <h3 class="sloka" id="sl6">hftnst</h3>
-          <h3 class="sloka" id="sl7">hftnst</h3> -->
-        </div>
-      </div>
-      <div class="next">
-        <button class="big" onclick="fetchslok()">></button>
-      </div>
+    <div class="ai">
+      <iframe src="https://bhagavadgita.io/gitagpt" class="res"> </iframe>
     </div>
+
+    <script src="script3.js"></script>
     <script src="script.js"></script>
     <script src="script1.js"></script>
-    <script src="script3.js"></script>
+    <script>
+      var coll = document.getElementsByClassName("exp");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight) {
+            content.style.maxHeight = null;
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          }
+        });
+      }
+    </script>
   </body>
 </html>

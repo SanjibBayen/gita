@@ -4,24 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
     <title>Gita for all</title>
   </head>
   <body>
     <div class="sticky">
       <div class="navbar">
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <a href="index.html" class="logo1"> Gita For All </a>
+          <a href="main.html" class="abc">All Chepters</a>
+          <a href="about.html" class="abc">About Gita</a>
+          <a href="gitaai.html" class="abc">Gita Ai(beta)</a>
+          <a href="#" class="abc">quotes(coming soon)</a>
+        </div>
+        <span
+          style="font-size: 26px; cursor: pointer"
+          onclick="openNav()"
+          class="sbutton"
+          >&#9776;
+        </span>
         <a href="index.html" class="logo"> Gita For All </a>
         <div>
-          <a href="#" class="abc">All Chepters</a>
+          <a href="main.html" class="abc">All Chepters</a>
           <a href="about.html" class="abc">About Gita</a>
-          <a href="#" class="abc">About Us</a>
+          <a href="gitaai.html" class="abc">Gita Ai(beta)</a>
+          <a href="#" class="abc">quotes(coming soon)</a>
         </div>
-        <div>
-          <input type="text" />
-          <button class="btn">
-            <a href="about.html" class="abc1">submit</a>
-          </button>
+
+        <!-- d -->
+        <div class="darkLight-searchBox">
+          <div class="dark-light">
+            <i class="bx bx-moon moon"></i>
+            <i class="bx bx-sun sun"></i>
+          </div>
+
+          <div class="searchBox">
+            <div class="searchToggle">
+              <i class="bx bx-x cancel"></i>
+              <i class="bx bx-search search"></i>
+            </div>
+
+            <div class="search-field">
+              <input type="text" placeholder="Search..." />
+              <i class="bx bx-search"></i>
+            </div>
+          </div>
         </div>
+        <!-- d -->
       </div>
     </div>
     <div class="displaypic">
@@ -29,12 +65,9 @@
       <div class="cover">
         <div class="text">Bhagavad Gita</div>
       </div>
-
-      <!-- <div class="bookimg"></div> -->
     </div>
-    <!-- <button onclick="chep('3')">Chapter 3</button> -->
     <div class="main"></div>
-    <!-- <script src="script.js"></script> -->
+    <script src="script3.js"></script>
     <script src="script1.js"></script>
   </body>
 </html>
