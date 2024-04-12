@@ -83,7 +83,7 @@ body {
 
 @media only screen and (max-width: 1200px) {
   .sup {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     margin-bottom: 20px;
     padding: 10px;
   }
@@ -107,13 +107,14 @@ body {
   .containt {
     width: 100%;
     padding: 10px;
+    border-radius: 0px;
   }
 
   .sup {
     width: 100%;
     margin: 0px 0px;
     margin-top: 0px;
-    padding: 5px 5px;
+    padding: 0px 0px;
   }
 
   /* .next,

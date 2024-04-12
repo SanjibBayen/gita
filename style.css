@@ -2,10 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 body {
-  font-family: Arial, sans-serif;
   /* background-color: #f6eee7; */
   background-color: #f4dbc6;
   color: #563f2e;
@@ -97,7 +97,7 @@ body {
   border-radius: 10px;
   margin: 10px;
   padding: 20px;
-  width: 75%;
+  width: 45%;
   height: 250px;
   display: flex;
   flex-direction: column;
@@ -136,16 +136,17 @@ input[type="text"]:focus::placeholder {
   color: transparent;
 }
 
-button {
+.btn {
   padding: 8px 16px;
   background-color: #8b5a2b;
   color: #fff;
   border: none;
   border-radius: 5px;
+  align-items: center;
   cursor: pointer;
 }
 
-button:hover {
+.btn:hover {
   background-color: #563f2e;
 }
 
@@ -185,7 +186,7 @@ button:hover {
     max-height: calc(1.2em * 2);
   }
 
-  button {
+  .btn {
     padding: 6px 12px;
     font-size: 14px;
   }
@@ -221,12 +222,12 @@ button:hover {
     padding: 6px 10px;
   }
 
-  button {
+  .btn {
     padding: 6px 12px;
     font-size: 14px;
   }
-  button {
+  /* button {
     padding: 4px 8px;
     font-size: 12px;
-  }
+  } */
 }

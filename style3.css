@@ -1,0 +1,149 @@
+.f1script {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: justify;
+  padding: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sup {
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+  padding: 40px 40px;
+}
+
+.img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  /* max-width: 700px; */
+  gap: 5px;
+  border-radius: 10px;
+  border: 2px solid #ddc5b1;
+}
+
+.nd2 {
+  padding: 10px 10px;
+}
+
+.a {
+  padding-left: 5px;
+}
+
+.size {
+  font-size: 28px;
+  color: rgb(152, 94, 8);
+}
+
+.st {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.exp {
+  cursor: pointer;
+  padding: 10px;
+  width: auto;
+  border: 1px solid #a17857;
+  text-align: left;
+  align-items: center;
+  outline: none;
+  font-size: 20px;
+  background-color: transparent !important;
+  border-radius: 10px;
+}
+
+.exp.active:after {
+  content: "\2039";
+  rotate: calc(90deg);
+  transition: max-height 0.2s ease-out;
+}
+
+.exp:after {
+  content: "\2039";
+  rotate: calc(270deg);
+  font-weight: bold;
+  font-size: 26px;
+  float: right;
+  margin-left: 5px;
+  text-align: center;
+  align-items: center;
+}
+
+.qn {
+  padding: 0 22px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.he {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.heading {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  border-bottom: 2px dotted #a17857;
+}
+
+/* Media Queries for Responsive Design */
+
+@media only screen and (max-width: 1000px) {
+  .sup {
+    padding: 20px 20px;
+  }
+  .f1script {
+    width: 100%;
+    padding: 10px;
+  }
+  .img {
+    width: 90%;
+  }
+
+  .size {
+    font-size: 24px;
+  }
+
+  .st {
+    font-size: 16px;
+  }
+
+  .exp {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .exp {
+    font-size: 14px;
+  }
+  .img {
+    width: 100%;
+  }
+  .heading {
+    font-size: 24px;
+  }
+  .he {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+}
