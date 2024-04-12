@@ -47,6 +47,11 @@ body {
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 50%;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  background-color: #8b5a2b;
 }
 .containt {
   display: flex;
