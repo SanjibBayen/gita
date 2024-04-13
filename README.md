@@ -2,7 +2,7 @@
   <img src="https://sanjibbayen.github.io/gita/logo.png" alt="Gita for All Logo" width="180" />
 </p>
 
-<h1 align="center">📖 Gita for All 🌟</h1>
+<h1 align="center"><em>📖 Gita for All 🌟</em></h1>
 
 <p align="center">
   <em>Bringing the wisdom of the Bhagavad Gita to your fingertips.</em>
@@ -11,9 +11,7 @@
 <p align="center">
   <a href="https://sanjibbayen.github.io/gita/"><img src="https://img.shields.io/badge/Visit%20Website-%230077B5.svg?&style=for-the-badge&logo=google-chrome&logoColor=white" alt="Visit Website"/></a>
   ·
-  <a href="#Usage💻"><img src="https://img.shields.io/badge/Usage-%233776AB.svg?&style=for-the-badge&logo=github&logoColor=white" alt="Usage"/></a>
-  ·
-  <a href="#installation"><img src="https://img.shields.io/badge/Installation-%233776AB.svg?&style=for-the-badge&logo=github&logoColor=white" alt="Installation"/></a>
+  <a href="#Usage"><img src="https://img.shields.io/badge/Usage-%233776AB.svg?&style=for-the-badge&logo=github&logoColor=white" alt="Usage"/></a>
   ·
   <a href="#contributing"><img src="https://img.shields.io/badge/Contributing-%233776AB.svg?&style=for-the-badge&logo=github&logoColor=white" alt="Contributing"/></a>
   ·
@@ -22,43 +20,43 @@
 
 ---
 
-## 🌈 Overview
+## <em>🌈 Overview</em>
 
-Welcome to Gita for All, an interactive platform designed to make the teachings of the Bhagavad Gita accessible to everyone. Dive into the timeless wisdom of this ancient scripture and explore its verses with ease.
+<em>Welcome to Gita for All, an interactive platform designed to make the teachings of the Bhagavad Gita accessible to everyone. Dive into the timeless wisdom of this ancient scripture and explore its verses with ease.</em>
 
-## 🚀 Features
+## 🚀 <em>Features</em>
 
-- **Chapter Navigation**: Seamlessly navigate through chapters and verses of the Bhagavad Gita.
-- **Search Functionality**: Find specific verses by keywords or phrases.
-- **Responsive Design**: Enjoy a consistent experience across various devices, from desktop to mobile.
+- <em>**Chapter Navigation**: Seamlessly navigate through chapters and verses of the Bhagavad Gita.</em>
+- <em>**Search Functionality**: Find specific verses by keywords or phrases.</em>
+- <em>**Responsive Design**: Enjoy a consistent experience across various devices, from desktop to mobile.</em>
 
-## Usage💻
+## <em>Usage</em>
 
-To embark on your spiritual journey with the Bhagavad Gita:
+<em>To embark on your spiritual journey with the Bhagavad Gita:</em>
 
-1. Visit [Gita for All](https://sanjibbayen.github.io/gita/).
-2. Start exploring the verses, chapters, and insights it offers.
+<em>1. Visit [Gita for All](https://sanjibbayen.github.io/gita/).</em>
+<em>2.Start exploring the verses, chapters, and insights it offers.</em>
 
 
-## 🙌 Contributing
+## <em>Contributing<em>
 
-Contributions are not just welcome, they're encouraged! Join us in enhancing this platform for the benefit of all seekers. Here's how you can get involved:
+<em>Contributions are not just welcome, they're encouraged! Join us in enhancing this platform for the benefit of all seekers. Here's how you can get involved:</em>
 
-1. **Fork** the repository.
-2. **Create** a new branch (`git checkout -b feature/improvement`).
-3. **Commit** your changes (`git commit -am 'Add new feature'`).
-4. **Push** to the branch (`git push origin feature/improvement`).
-5. **Create** a new Pull Request.
+<em>1. **Fork** the repository.</em>
+<em>2. **Create** a new branch (`git checkout -b feature/improvement`).</em>
+<em>3. **Commit** your changes (`git commit -am 'Add new feature'`).</em>
+<em>4. **Push** to the branch (`git push origin feature/improvement`).</em>
+<em>5. **Create** a new Pull Request.</em>
 
-## 🌟 Credits
+## <em>Credits</em>
 
-- **Sanjib Bayen**: Project Lead and Developer
-- [Bhagavad Gita Api](https://bhagavadgitaapi.in/): Providing the Bhagavad Gita API.
--  [Bhagavad Gita Ai](https://bhagavadgita.io/gitagpt): Providing the Bhagavad Gita AI.
-- [Boxicons](https://boxicons.com): Supplying the icons utilized in the application.
+- <em>**Sanjib Bayen** : Project Lead and Developer</em>
+- <em>[Bhagavad Gita Api](https://bhagavadgitaapi.in/) : Providing the Bhagavad Gita API.</em>
+-  <em>[Bhagavad Gita Ai](https://bhagavadgita.io/gitagpt) : Providing the Bhagavad Gita AI.</em>
+- <em>[Boxicons](https://boxicons.com) : Supplying the icons utilized in the application.</em
 
 ---
 
 <p align="center">
-  Made with ❤️ by Sanjib Bayen
+ <em> Made with ❤️ by Sanjib Bayen</em>
 </p>
