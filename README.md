@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://sanjibbayen.github.io/gita/"><img src="https://img.shields.io/badge/Visit%20Website-%230077B5.svg?&style=for-the-badge&logo=google-chrome&logoColor=white" alt="Visit Website"/></a>
   ·
-  <a href="#Usage"><img src="https://img.shields.io/badge/Usage-%233776AB.svg?&style=for-the-badge&logo=github&logoColor=white" alt="Usage"/></a>
+  <a href="#Usage💻"><img src="https://img.shields.io/badge/Usage-%233776AB.svg?&style=for-the-badge&logo=github&logoColor=white" alt="Usage"/></a>
   ·
   <a href="#installation"><img src="https://img.shields.io/badge/Installation-%233776AB.svg?&style=for-the-badge&logo=github&logoColor=white" alt="Installation"/></a>
   ·
@@ -32,7 +32,7 @@ Welcome to Gita for All, an interactive platform designed to make the teachings 
 - **Search Functionality**: Find specific verses by keywords or phrases.
 - **Responsive Design**: Enjoy a consistent experience across various devices, from desktop to mobile.
 
-## Usage
+## Usage💻
 
 To embark on your spiritual journey with the Bhagavad Gita:
 
