@@ -54,6 +54,10 @@ body {
   background-color: #8b5a2b;
 }
 .containt {
+   word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   width: 55%;
