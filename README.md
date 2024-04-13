@@ -42,11 +42,11 @@
 
 <em>Contributions are not just welcome, they're encouraged! Join us in enhancing this platform for the benefit of all seekers. Here's how you can get involved:</em>
 
-<em>1. **Fork** the repository.</em>
-<em>2. **Create** a new branch (`git checkout -b feature/improvement`).</em>
-<em>3. **Commit** your changes (`git commit -am 'Add new feature'`).</em>
-<em>4. **Push** to the branch (`git push origin feature/improvement`).</em>
-<em>5. **Create** a new Pull Request.</em>
+  1. **Fork** the repository.</em>
+  2. **Create** a new branch (`git checkout -b feature/improvement`).
+  3. **Commit** your changes (`git commit -am 'Add new feature'`).
+  4. **Push** to the branch (`git push origin feature/improvement`).
+  5. **Create** a new Pull Request.</em>
 
 ## <em>Credits</em>
 
