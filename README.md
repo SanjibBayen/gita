@@ -29,6 +29,6 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 
 ## Credits
 
-- [OpenAPI](https://bhagavadgitaapi.in/) for the Bhagavad Gita API.
+- [Bhagavadgitaapi](https://bhagavadgitaapi.in/) for the Bhagavad Gita API.
 - [Boxicons](https://boxicons.com) for the icons used in the application.
 
