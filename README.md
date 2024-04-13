@@ -1,43 +1,66 @@
-<h1 align="center">📖 Gita for All 🌟</h1>
-
 <p align="center">
-  <img src="https://your-website-url-here.com/assets/img/logo.png" alt="Gita for All Logo" width="200" />
+  <img src="https://your-website-url-here.com/logo.png" alt="Gita for All Logo" width="200" />
 </p>
 
-<p align="center">An interactive and immersive way to explore the timeless wisdom of the Bhagavad Gita, brought to you by Sanjib Bayen.</p>
+<h1 align="center">Gita for All</h1>
+
+<p align="center">
+  <em>Bringing the wisdom of the Bhagavad Gita to your fingertips.</em>
+</p>
+
+<p align="center">
+  <a href="https://your-website-url-here.com">Visit Website</a>
+  ·
+  <a href="#usage">Usage</a>
+  ·
+  <a href="#installation">Installation</a>
+  ·
+  <a href="#contributing">Contributing</a>
+  ·
+  <a href="#credits">Credits</a>
+</p>
 
 ---
 
-## 🚀 Features
+## Overview
 
-- **Chapter-by-Chapter Navigation**: Easily navigate through the chapters and verses of the Bhagavad Gita.
-- **Search Functionality**: Search for specific verses or keywords to find the teachings you're looking for.
-- **Responsive Design**: Experience seamless reading across all devices, from smartphones to desktops.
+Welcome to Gita for All, an interactive platform designed to make the teachings of the Bhagavad Gita accessible to everyone. Dive into the timeless wisdom of this ancient scripture and explore its verses with ease.
 
-## 🌈 Explore Gita for All
+## Features
 
-To explore the Bhagavad Gita with Gita for All, simply visit [Gita for All](https://sanjibbayen.github.io/gita/) and start your journey of self-discovery.
+- **Chapter Navigation**: Seamlessly navigate through chapters and verses of the Bhagavad Gita.
+- **Search Functionality**: Find specific verses by keywords or phrases.
+- **Responsive Design**: Enjoy a consistent experience across various devices, from desktop to mobile.
 
-## 💻 Installation
+## Usage
 
-No installation is required! Just open the webpage in your browser and dive into the teachings of the Gita.
+To embark on your spiritual journey with the Bhagavad Gita:
 
-## 🙌 Contributing
+1. Visit [Gita for All](https://your-website-url-here.com).
+2. Start exploring the verses, chapters, and insights it offers.
 
-Contributions are welcome and encouraged! If you have ideas for improvements or new features, feel free to contribute. Follow these steps to contribute:
+## Installation
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/improvement`).
-3. Make your changes.
-4. Commit your changes (`git commit -am 'Add new feature'`).
-5. Push to the branch (`git push origin feature/improvement`).
-6. Create a new Pull Request.
+Gita for All is a web-based application, eliminating the need for installation. Simply visit the website and begin your exploration.
 
-## 🌟 Credits
+## Contributing
 
-- [Bhagavad Gita Api](https://bhagavadgitaapi.in/) for the Bhagavad Gita API.
-- [Boxicons](https://boxicons.com) for the beautiful icons used in the application.
+Contributions are not just welcome, they're encouraged! Join us in enhancing this platform for the benefit of all seekers. Here's how you can get involved:
+
+1. **Fork** the repository.
+2. **Create** a new branch (`git checkout -b feature/improvement`).
+3. **Commit** your changes (`git commit -am 'Add new feature'`).
+4. **Push** to the branch (`git push origin feature/improvement`).
+5. **Create** a new Pull Request.
+
+## Credits
+
+- **Sanjib Bayen**: Project Lead and Developer
+- [OpenAPI](https://openai.com): Providing the Bhagavad Gita API.
+- [Boxicons](https://boxicons.com): Supplying the icons utilized in the application.
 
 ---
 
-<p align="center">Made with ❤️ by Sanjib Bayen</p>
+<p align="center">
+  Made with ❤️ by Sanjib Bayen
+</p>
