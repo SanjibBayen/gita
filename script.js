@@ -1,4 +1,5 @@
 let chapter = 1;
+// alert(chapter);
 let verse = 1;
 
 // Function to fetch verses based on chapter and verse numbers

@@ -33,7 +33,7 @@ function fetchVerse(chapterNumber, verseNumber) {
   chapter = chapterNumber;
   verse = verseNumber;
   document.getElementById("m").style.display = "none";
-  document.getElementById("n").style.display = "none";
+  //   document.getElementById("n").style.display = "none";
   document.getElementById("s").style.display = "flex";
   console.log(chapter, verse);
   fetch(`https://bhagavadgitaapi.in/slok/${chapterNumber}/${verseNumber}/`)
@@ -76,9 +76,6 @@ function fetchslok2() {
   }
 }
 
-document.getElementById("abc").addEventListener("click", chap);
 function chap() {
   document.getElementById("m").style.display = "flex";
-  document.getElementById("n").style.display = "none";
-  document.getElementById("s").style.display = "none";
 }

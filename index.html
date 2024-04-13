@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
       rel="stylesheet"
@@ -19,7 +20,7 @@
             >&times;</a
           >
           <a href="index.html" class="logo1"> Gita For All </a>
-          <a href="main.html" class="abc">All Chepters</a>
+          <a href="#" class="abc" id="abc" onclick="chap()">All Chepters</a>
           <a href="about.html" class="abc">About Gita</a>
           <a href="gitaai.html" class="abc">Gita Ai(beta)</a>
           <a href="#" class="abc">quotes(coming soon)</a>
@@ -28,11 +29,11 @@
           style="font-size: 26px; cursor: pointer"
           onclick="openNav()"
           class="sbutton"
-          >&#9776;
-        </span>
+          >&#9776;</span
+        >
         <a href="index.html" class="logo"> Gita For All </a>
         <div>
-          <a href="main.html" class="abc">All Chepters</a>
+          <button class="abc" id="abc" onclick="chap()">All Chepters</button>
           <a href="about.html" class="abc">About Gita</a>
           <a href="gitaai.html" class="abc">Gita Ai(beta)</a>
           <a href="#" class="abc">quotes(coming soon)</a>
@@ -60,14 +61,330 @@
         <!-- d -->
       </div>
     </div>
-    <div class="displaypic">
+    <div class="displaypic" id="n">
       <img src="book1.jpg" alt="x" width="85%" height="500px" class="img-top" />
       <div class="cover">
         <div class="text">Bhagavad Gita</div>
       </div>
     </div>
-    <div class="main"></div>
-    <script src="script3.js"></script>
+    <div class="main" id="m">
+      <div class="chepters">
+        <div class="heading">
+          <h2 class="sloka" id="1s1"></h2>
+        </div>
+        <div class="chname">
+          <h2 class="sloka" id="1s2"></h2>
+          <br />
+          <h3 class="sloka1" id="1s3"></h3>
+          <br />
+        </div>
+        <div class="menu">
+          <button class="btn" id="btn" onclick="fetchVerse(1, 1);">
+            <h4 class="sloka" id="1s4"></h4>
+          </button>
+        </div>
+      </div>
+      <div class="chepters">
+        <div class="heading">
+          <h2 class="sloka" id="2s1"></h2>
+        </div>
+        <div class="chname">
+          <h2 class="sloka" id="2s2"></h2>
+          <br />
+          <h3 class="sloka1" id="2s3"></h3>
+          <br />
+        </div>
+        <div class="menu">
+          <button class="btn" id="btn" onclick="fetchVerse(2, 1);">
+            <h4 class="sloka" id="2s4"></h4>
+          </button>
+        </div>
+      </div>
+      <div class="chepters">
+        <div class="heading">
+          <h2 class="sloka" id="3s1"></h2>
+        </div>
+        <div class="chname">
+          <h2 class="sloka" id="3s2"></h2>
+          <br />
+          <h3 class="sloka1" id="3s3"></h3>
+          <br />
+        </div>
+        <div class="menu">
+          <button class="btn" id="btn" onclick="fetchVerse(3, 1);">
+            <h4 class="sloka" id="3s4"></h4>
+          </button>
+        </div>
+      </div>
+      <div class="chepters">
+        <div class="heading">
+          <h2 class="sloka" id="4s1"></h2>
+        </div>
+        <div class="chname">
+          <h2 class="sloka" id="4s2"></h2>
+          <br />
+          <h3 class="sloka1" id="4s3"></h3>
+          <br />
+        </div>
+        <div class="menu">
+          <button class="btn" id="btn" onclick="fetchVerse(4, 1);">
+            <h4 class="sloka" id="4s4"></h4>
+          </button>
+        </div>
+      </div>
+      <div class="chepters">
+        <div class="heading">
+          <h2 class="sloka" id="5s1"></h2>
+        </div>
+        <div class="chname">
+          <h2 class="sloka" id="5s2"></h2>
+          <br />
+          <h3 class="sloka1" id="5s3"></h3>
+          <br />
+        </div>
+        <div class="menu">
+          <button class="btn" id="btn" onclick="fetchVerse(5, 1);">
+            <h4 class="sloka" id="5s4"></h4>
+          </button>
+        </div>
+      </div>
+      <div class="chepters">
+        <div class="heading">
+          <h2 class="sloka" id="6s1"></h2>
+        </div>
+        <div class="chname">
+          <h2 class="sloka" id="6s2"></h2>
+          <br />
+          <h3 class="sloka1" id="6s3"></h3>
+          <br />
+        </div>
+        <div class="menu">
+          <button class="btn" id="btn" onclick="fetchVerse(6, 1);">
+            <h4 class="sloka" id="6s4"></h4>
+          </button>
+        </div>
+      </div>
+      <div class="chepters">
+        <div class="heading">
+          <h2 class="sloka" id="7s1">hftnst</h2>
+        </div>
+        <div class="chname">
+          <h2 class="sloka" id="7s2"></h2>
+          <br />
+          <h3 class="sloka1" id="7s3"></h3>
+          <br />
+        </div>
+        <div class="menu">
+          <button class="btn" id="btn" onclick="fetchVerse(7, 1);">
+            <h4 class="sloka" id="7s4"></h4>
+          </button>
+        </div>
+      </div>
+      <div class="chepters">
+        <div class="heading">
+          <h2 class="sloka" id="8s1"></h2>
+        </div>
+        <div class="chname">
+          <h2 class="sloka" id="8s2"></h2>
+          <br />
+          <h3 class="sloka1" id="8s3"></h3>
+          <br />
+        </div>
+        <div class="menu">
+          <button class="btn" id="btn" onclick="fetchVerse(8, 1);">
+            <h4 class="sloka" id="8s4"></h4>
+          </button>
+        </div>
+      </div>
+      <div class="chepters">
+        <div class="heading">
+          <h2 class="sloka" id="9s1"></h2>
+        </div>
+        <div class="chname">
+          <h2 class="sloka" id="9s2"></h2>
+          <br />
+          <h3 class="sloka1" id="9s3"></h3>
+          <br />
+        </div>
+        <div class="menu">
+          <button class="btn" id="btn" onclick="fetchVerse(9, 1);">
+            <h4 class="sloka" id="9s4"></h4>
+          </button>
+        </div>
+      </div>
+      <div class="chepters">
+        <div class="heading">
+          <h2 class="sloka" id="10s1"></h2>
+        </div>
+        <div class="chname">
+          <h2 class="sloka" id="10s2"></h2>
+          <br />
+          <h3 class="sloka1" id="10s3"></h3>
+          <br />
+        </div>
+        <div class="menu">
+          <button class="btn" id="btn" onclick="fetchVerse(10, 1);">
+            <h4 class="sloka" id="10s4"></h4>
+          </button>
+        </div>
+      </div>
+      <div class="chepters">
+        <div class="heading">
+          <h2 class="sloka" id="11s1"></h2>
+        </div>
+        <div class="chname">
+          <h2 class="sloka" id="11s2"></h2>
+          <br />
+          <h3 class="sloka1" id="11s3"></h3>
+          <br />
+        </div>
+        <div class="menu">
+          <button class="btn" id="btn" onclick="fetchVerse(11, 1);">
+            <h4 class="sloka" id="11s4"></h4>
+          </button>
+        </div>
+      </div>
+      <div class="chepters">
+        <div class="heading">
+          <h2 class="sloka" id="12s1"></h2>
+        </div>
+        <div class="chname">
+          <h2 class="sloka" id="12s2"></h2>
+          <br />
+          <h3 class="sloka1" id="12s3"></h3>
+          <br />
+        </div>
+        <div class="menu">
+          <button class="btn" id="btn" onclick="fetchVerse(12, 1);">
+            <h4 class="sloka" id="12s4"></h4>
+          </button>
+        </div>
+      </div>
+      <div class="chepters">
+        <div class="heading">
+          <h2 class="sloka" id="13s1"></h2>
+        </div>
+        <div class="chname">
+          <h2 class="sloka" id="13s2"></h2>
+          <br />
+          <h3 class="sloka1" id="13s3"></h3>
+          <br />
+        </div>
+        <div class="menu">
+          <button class="btn" id="btn" onclick="fetchVerse(13, 1);">
+            <h4 class="sloka" id="13s4"></h4>
+          </button>
+        </div>
+      </div>
+      <div class="chepters">
+        <div class="heading">
+          <h2 class="sloka" id="14s1"></h2>
+        </div>
+        <div class="chname">
+          <h2 class="sloka" id="14s2"></h2>
+          <br />
+          <h3 class="sloka1" id="14s3"></h3>
+          <br />
+        </div>
+        <div class="menu">
+          <button class="btn" id="btn" onclick="fetchVerse(14, 1);">
+            <h4 class="sloka" id="14s4"></h4>
+          </button>
+        </div>
+      </div>
+      <div class="chepters">
+        <div class="heading">
+          <h2 class="sloka" id="15s1"></h2>
+        </div>
+        <div class="chname">
+          <h2 class="sloka" id="15s2"></h2>
+          <br />
+          <h3 class="sloka1" id="15s3"></h3>
+          <br />
+        </div>
+        <div class="menu">
+          <button class="btn" id="btn" onclick="fetchVerse(15, 1);">
+            <h4 class="sloka" id="15s4"></h4>
+          </button>
+        </div>
+      </div>
+      <div class="chepters">
+        <div class="heading">
+          <h2 class="sloka" id="16s1"></h2>
+        </div>
+        <div class="chname">
+          <h2 class="sloka" id="16s2"></h2>
+          <br />
+          <h3 class="sloka1" id="16s3"></h3>
+          <br />
+        </div>
+        <div class="menu">
+          <button class="btn" id="btn" onclick="fetchVerse(16, 1);">
+            <h4 class="sloka" id="16s4"></h4>
+          </button>
+        </div>
+      </div>
+      <div class="chepters">
+        <div class="heading">
+          <h2 class="sloka" id="17s1"></h2>
+        </div>
+        <div class="chname">
+          <h2 class="sloka" id="17s2"></h2>
+          <br />
+          <h3 class="sloka1" id="17s3"></h3>
+          <br />
+        </div>
+        <div class="menu">
+          <button class="btn" id="btn" onclick="fetchVerse(17, 1);">
+            <h4 class="sloka" id="17s4"></h4>
+          </button>
+        </div>
+      </div>
+      <div class="chepters">
+        <div class="heading">
+          <h2 class="sloka" id="18s1"></h2>
+        </div>
+        <div class="chname">
+          <h2 class="sloka" id="18s2"></h2>
+          <br />
+          <h3 class="sloka1" id="18s3"></h3>
+          <br />
+        </div>
+        <div>
+          <button class="btn" id="btn" onclick="fetchVerse(18, 1);">
+            <h4 class="sloka" id="18s4"></h4>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="sup" id="s">
+      <div class="prev">
+        <button class="big" onclick="fetchslok2()">&lt;</button>
+      </div>
+      <div class="containt">
+        <h1 class="sloka" id="sl1">1</h1>
+        <img src="book1.jpg" alt="" class="picr" />
+        <div class="text-slok">
+          <h2 class="slokab" id="sl2">hftnst</h2>
+          <p class="sloka" id="sl3">hftnst</p>
+          <p class="sloka" id="sl4">hftnst</p>
+          <p class="sloka" id="sl5">hftnst</p>
+          <!-- <h3 class="sloka" id="sl6">hftnst</h3>
+                <h3 class="sloka" id="sl7">hftnst</h3> -->
+        </div>
+      </div>
+      <div class="next">
+        <button class="big" onclick="fetchslok()">&gt;</button>
+      </div>
+    </div>
+    <!-- <script src="script.js"></script> -->
     <script src="script1.js"></script>
+    <script src="script3.js"></script>
+    <script>
+      function myFunction() {
+        alert("Page is loaded");
+      }
+    </script>
   </body>
 </html>
