@@ -53,7 +53,7 @@
 - <em>**Sanjib Bayen** : Project Lead and Developer</em>
 - <em>[Bhagavad Gita Api](https://bhagavadgitaapi.in/) : Providing the Bhagavad Gita API.</em>
 -  <em>[Bhagavad Gita Ai](https://bhagavadgita.io/gitagpt) : Providing the Bhagavad Gita AI.</em>
-- <em>[Boxicons](https://boxicons.com) : Supplying the icons utilized in the application.</em
+- <em>[Boxicons](https://boxicons.com) : Supplying the icons utilized in the application.</em>
 
 ---
 
