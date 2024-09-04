@@ -4,7 +4,7 @@ let verse = 1;
 
 // Function to fetch verses based on chapter and verse numbers
 function fetchVerse(chapterNumber, verseNumber) {
-  fetch(`https://bhagavadgitaapi.in/slok/${chapterNumber}/${verseNumber}/`)
+  fetch(`https://vedicscriptures.github.io/slok/${chapterNumber}/${verseNumber}/`)
     .then((response) => response.json())
     .then((data) => {
       document.getElementById("sl1").innerText = `${data._id}`;
@@ -21,7 +21,7 @@ fetchVerse(chapter, verse);
 
 function fetchslok() {
   verse++;
-  const url = `https://bhagavadgitaapi.in/chapter/${chapter}/`;
+  const url = `https://vedicscriptures.github.io/chapter/${chapter}/`;
 
   fetch(url)
     .then((response) => response.json())
