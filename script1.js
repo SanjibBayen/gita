@@ -3,7 +3,7 @@ let chapter = 1;
 // alert(chapter);
 let verse = 1;
 for (let i = 1; i <= 18; i++) {
-  fetch(`https://bhagavadgitaapi.in/chapter/${i}/`)
+  fetch(`https://vedicscriptures.github.io/chapter/${i}/`)
     .then((response) => response.json())
     .then((data) => {
       document.getElementById(
@@ -36,7 +36,7 @@ function fetchVerse(chapterNumber, verseNumber) {
   document.getElementById("n").style.display = "none";
   document.getElementById("s").style.display = "flex";
   console.log(chapter, verse);
-  fetch(`https://bhagavadgitaapi.in/slok/${chapterNumber}/${verseNumber}/`)
+  fetch(`https://vedicscriptures.github.io/slok/${chapterNumber}/${verseNumber}/`)
     .then((response) => response.json())
     .then((data) => {
       document.getElementById("sl1").innerText = `${data._id}`;
@@ -55,7 +55,7 @@ document.getElementById("btn").addEventListener("click", function () {
 
 function fetchslok() {
   verse++;
-  const url = `https://bhagavadgitaapi.in/chapter/${chapter}/`;
+  const url = `https://vedicscriptures.github.io/chapter/${chapter}/`;
 
   fetch(url)
     .then((response) => response.json())
